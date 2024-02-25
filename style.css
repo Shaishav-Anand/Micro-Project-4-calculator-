@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.outer{
+     /* border: 2px solid black; */
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #3b4664;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+
+}
+
+.inner{
+     /* border: 2px solid black; */
+     width: 400px;
+     height: 472px;
+     background-color: #3b4664;
+     /* filter: drop-shadow(10px 10px 5px #3b4664);  */
+     border-radius: 5px;
+     
+}
+
+.inner>p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0px;
+
+}
+
+.input-area{
+    width: 100%;
+    background-color:#181f32 ;
+    height: 83px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    text-align: right;
+    color: #fff;
+    font-size: 45px;
+    padding-right:15px ;
+}
+
+.buttons{
+    width: 100%;
+    background-color: #252d44;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button{
+    width: 78px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    padding: 0px 0px;
+}
+
+.res{
+    width: 46%;
+    background-color: #647299;
+    color: #fff;
+}
+
+.eql{
+    width: 45.5%;
+    background-color: #d13f30;
+    color: #fff;
+}
+
+.del{
+    background-color:#647299 ;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #fff;
+    font-size: 45px;
+    float: right;
+    /* margin-right: 0px; */
+    
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 470px) {
+    button{
+        width: 70px;
+        height: 40px;
+    }
+
+    .res{
+        width: 42%;
+        /* margin: 5px; */
+    }
+
+    .eql{
+        width: 41.5%;
+    }
+}
+
+.footer-credit{
+background-color: #3b4664;
+font-weight: 400;
+text-align: center;
+margin-bottom: 30px;
+color: #ffffff;
+margin-top: 60px;
+font-family: 'Poppins', sans-serif;
+}
